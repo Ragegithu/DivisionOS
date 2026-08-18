@@ -1,0 +1,16 @@
+shell.h(18): Warning! W138: No newline at end of file
+stdio.h(15): Warning! W138: No newline at end of file
+stdint.h(19): Warning! W138: No newline at end of file
+keyboard.h(13): Warning! W138: No newline at end of file
+shell.c(31): Warning! W131: No prototype found for function 'clearf'
+shell.c(45): Warning! W131: No prototype found for function 'set_color'
+shell.c(49): Warning! W131: No prototype found for function 'set_cursor'
+shell.c(55): Warning! W138: No newline at end of file
+shell.c(45): Warning! W308: The function 'set_color' without prototyped parameters called
+shell.c(45): Note! I2002: 'set_color' defined in: shell.c(45)
+shell.c(49): Warning! W308: The function 'set_cursor' without prototyped parameters called
+shell.c(49): Note! I2002: 'set_cursor' defined in: shell.c(49)
+shell.c(53): Warning! W308: The function 'set_color' without prototyped parameters called
+shell.c(53): Note! I2002: 'set_color' defined in: shell.c(45)
+shell.c(54): Warning! W308: The function 'set_cursor' without prototyped parameters called
+shell.c(54): Note! I2002: 'set_cursor' defined in: shell.c(49)

@@ -1,0 +1,14 @@
+stdint.h(19): Warning! W138: No newline at end of file
+stdio.h(15): Warning! W138: No newline at end of file
+keyboard.h(13): Warning! W138: No newline at end of file
+shell.h(18): Warning! W138: No newline at end of file
+kernel.c(25): Warning! W131: No prototype found for function 'set_color'
+kernel.c(41): Warning! W138: No newline at end of file
+kernel.c(25): Warning! W308: The function 'set_color' without prototyped parameters called
+kernel.c(25): Note! I2002: 'set_color' defined in: kernel.c(25)
+kernel.c(27): Warning! W308: The function 'set_color' without prototyped parameters called
+kernel.c(27): Note! I2002: 'set_color' defined in: kernel.c(25)
+kernel.c(32): Warning! W308: The function 'set_color' without prototyped parameters called
+kernel.c(32): Note! I2002: 'set_color' defined in: kernel.c(25)
+kernel.c(37): Warning! W308: The function 'set_color' without prototyped parameters called
+kernel.c(37): Note! I2002: 'set_color' defined in: kernel.c(25)

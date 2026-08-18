@@ -1,0 +1,6 @@
+stdio.h(5): Warning! W138: No newline at end of file
+stdint.h(19): Warning! W138: No newline at end of file
+fat.h(60): Warning! W138: No newline at end of file
+fat.c(27): Warning! W200: 'ds_val' has been referenced but never assigned a value
+fat.c(36): Warning! W202: Symbol 'raw' has been defined, but not referenced
+fat.c(98): Warning! W138: No newline at end of file

@@ -1,0 +1,115 @@
+Open Watcom Linker Version 2.0 beta Apr 24 2026 04:09:57 (64-bit)
+Copyright (c) 2002-2026 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Created on:       26/05/04 20:20:48
+Executable Image: /home/rage/Projects/OSWHY/Build/stage2.bin
+creating a RAW Binary Image executable
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+DGROUP                          00020bd4             00002f28
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+_ENTRY                 CODE           AUTO           00020000        000000c2
+_TEXT                  CODE           AUTO           000200c2        00000b11
+CONST                  DATA           DGROUP         00020bd4        000000d1
+CONST2                 DATA           DGROUP         00020ca6        00000011
+_DATA                  DATA           DGROUP         00020cb8        00000000
+_BSS                   BSS            DGROUP         00020cb8        00002e44
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: /home/rage/Projects/OSWHY/Build/stage2/asm/main.obj(/home/rage/Projects/OSWHY/Build/stage2/asm/main.obj)
+00020000       entry
+Module: /home/rage/Projects/OSWHY/Build/stage2/asm/x86.obj(/home/rage/Projects/OSWHY/Build/stage2/asm/x86.obj)
+000200c2       _x86_div64_32
+000200f0       __U4D
+00020118       _x86_Video_WriteCharTeletype
+0002012a       _diskRead_asm
+Module: /home/rage/Projects/OSWHY/Build/stage2/c/disk.obj(/home/rage/Projects/OSWHY/Build/stage2/c/disk.obj)
+000201f6       _diskRead
+Module: /home/rage/Projects/OSWHY/Build/stage2/c/fat.obj(/home/rage/Projects/OSWHY/Build/stage2/c/fat.obj)
+0002024e+      memcmp_
+000202cb       FAT_init_
+00020462       FAT_find_
+000204f6       readFile_
+00023afa+      _g_BootSector
+Module: /home/rage/Projects/OSWHY/Build/stage2/c/main.obj(/home/rage/Projects/OSWHY/Build/stage2/c/main.obj)
+00020606       _cstart_
+Module: /home/rage/Projects/OSWHY/Build/stage2/c/stdio.obj(/home/rage/Projects/OSWHY/Build/stage2/c/stdio.obj)
+000206a5+      putc_
+000206cc+      puts_
+00020703       _printf
+0002095f+      printf_number_
+00020ca6+      _g_HexChar
+
+
+                        +---------------------+
+                        |   Module Segments   |
+                        +---------------------+
+
+! = 32-bit segment
+c = initialized communal data
+
+Module          Segment               Class           Address         Size
+======          =======               =====           =======         ====
+
+/home/rage/Projects/OSWHY/Build/stage2/asm/main.obj
+                _ENTRY                CODE           00020000         000000c2
+/home/rage/Projects/OSWHY/Build/stage2/asm/x86.obj
+                _TEXT                 CODE           000200c2         00000090
+/home/rage/Projects/OSWHY/Build/stage2/c/disk.obj
+                _TEXT                 CODE           00020152         000000fc
+                CONST                 DATA           00020bd4         00000000
+                CONST2                DATA           00020ca6         00000000
+                _DATA                 DATA           00020cb8         00000000
+/home/rage/Projects/OSWHY/Build/stage2/c/fat.obj
+                _TEXT                 CODE           0002024e         000003b8
+                CONST                 DATA           00020bd4         0000001d
+                CONST2                DATA           00020ca6         00000000
+                _DATA                 DATA           00020cb8         00000000
+                _BSS                  BSS            00020cb8         00002e44
+/home/rage/Projects/OSWHY/Build/stage2/c/main.obj
+                _TEXT                 CODE           00020606         0000009f
+                CONST                 DATA           00020bf2         000000b3
+                CONST2                DATA           00020ca6         00000000
+                _DATA                 DATA           00020cb8         00000000
+/home/rage/Projects/OSWHY/Build/stage2/c/stdio.obj
+                _TEXT                 CODE           000206a5         0000052e
+                CONST                 DATA           00020ca6         00000000
+                CONST2                DATA           00020ca6         00000011
+                _DATA                 DATA           00020cb8         00000000
+Warning! W1014: stack segment not found
+
+
+                        +-----------------------+
+                        |   Linker Statistics   |
+                        +-----------------------+
+
+Stack size:  9000 (36864.)
+Memory size:  3afc (15100.)
+Entry point address: 00020000
+Link time: 00:00.77

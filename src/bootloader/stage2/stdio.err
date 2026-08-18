@@ -1,0 +1,3 @@
+stdio.h(5): Warning! W138: No newline at end of file
+stdint.h(19): Warning! W138: No newline at end of file
+stdio.c(223): Warning! W138: No newline at end of file

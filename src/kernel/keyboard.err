@@ -1,0 +1,16 @@
+stdint.h(19): Warning! W138: No newline at end of file
+idt.h(29): Warning! W138: No newline at end of file
+keyboard.h(13): Warning! W138: No newline at end of file
+x86.h(10): Warning! W138: No newline at end of file
+keyboard.c(88): Warning! W131: No prototype found for function 'putc'
+keyboard.c(101): Warning! W138: No newline at end of file
+keyboard.c(88): Warning! W308: The function 'putc' without prototyped parameters called
+keyboard.c(88): Note! I2002: 'putc' defined in: keyboard.c(88)
+keyboard.c(89): Warning! W308: The function 'putc' without prototyped parameters called
+keyboard.c(89): Note! I2002: 'putc' defined in: keyboard.c(88)
+keyboard.c(90): Warning! W308: The function 'putc' without prototyped parameters called
+keyboard.c(90): Note! I2002: 'putc' defined in: keyboard.c(88)
+keyboard.c(96): Warning! W308: The function 'putc' without prototyped parameters called
+keyboard.c(96): Note! I2002: 'putc' defined in: keyboard.c(88)
+keyboard.c(100): Warning! W308: The function 'putc' without prototyped parameters called
+keyboard.c(100): Note! I2002: 'putc' defined in: keyboard.c(88)

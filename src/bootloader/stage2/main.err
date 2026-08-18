@@ -1,0 +1,5 @@
+stdint.h(19): Warning! W138: No newline at end of file
+stdio.h(5): Warning! W138: No newline at end of file
+fat.h(60): Warning! W138: No newline at end of file
+main.c(15): Warning! W202: Symbol 'fatOk' has been defined, but not referenced
+main.c(42): Warning! W138: No newline at end of file
