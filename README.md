@@ -59,3 +59,8 @@ a FAT12 filesystem driver and freestanding C environment I built myself.
 
 > The OS was originally named NBOS (from the amazing nanobyte) — you can still spot it as the FAT12  
 > volume label in the Makefile.
+>
+> <img width="720" height="400" alt="Screenshot_20260919_023634" src="https://github.com/user-attachments/assets/4bf0d022-9daa-480d-8748-8b4243209a92" />
+<img width="720" height="400" alt="Screenshot_20260919_023551" src="https://github.com/user-attachments/assets/bc1fc1a7-6110-4601-9fa4-77017ad0c292" />
+<img width="721" height="397" alt="Screenshot_20260919_023439" src="https://github.com/user-attachments/assets/013359be-d28e-4c6b-b45a-ed377cef54cd" />
+
